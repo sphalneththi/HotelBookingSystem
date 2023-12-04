@@ -1,0 +1,25 @@
+body {
+	background-image: url("https://wallpaperaccess.com/full/6688225.jpg");
+	
+
+}
+
+.amaya {
+	background-image: url("../images/amaya.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	display: block;
+	min-height: 345px;
+	margin-top: 20%;
+
+}
+
+.slogan {
+	width: 100%;
+	text-align: center;
+	color: #f4f5f5;
+	font-size: 200%;
+	display: block;
+
+}

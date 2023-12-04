@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+
+<html>
+<?php include "formData.php"; ?>
+
+	<head>
+
+		<title>Booking | Amaya Resorts</title>
+		<!--CSS Stylesheets-->
+		<link rel="stylesheet" type="text/css" href="../styles/common.css">
+		<link rel="stylesheet" type="text/css" href="../styles/booking.css">
+		
+		<!--JS Stylesheet-->
+		<script src="../js/booking.js"></script>
+
+		<!-- Fonts -->
+		<!-- Menu -->
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+		<!-- icon -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--Favicon-->
+		<link rel="icon" href="../images/icon.png">
+		
+	</head>
+	
+	<body>
+	<!-- Header -->
+		<div class="header" style="background-image:url(../images/divbacknew.jpg); width:100%; height:180px;">
+			<a href="../home.html"><div class="logo"></div></a>
+
+			<ul class="menu-list">
+				<li class="menu-item"><a href="../home.html" class="menu-link">Home</a></li>
+				<li class="menu-item-current"><a href="../html/Rooms%20&%20Suites.html" class="menu-link-current">Rooms & Suites</a></li>
+				<li class="menu-item"><a href="../html/Dining.html" class="menu-link">Dining</a></li>
+				<li class="menu-item"><a href="../html/Facilities.html" class="menu-link">Facilities</a></li>
+				<li class="menu-item"><a href="../html/Activities.html" class="menu-link">Activities</a></li>
+				<li class="menu-item"><a href="../html/Offers.html" class="menu-link">Offers</a></li>
+			</ul>
+		</div>
+	
+	<!--Content-->
+		<div style="background-color:#f4f5f5dd; margin-left:auto; margin-right: auto; width:900px;">
+		<h2>Book Your Stay Right Now...</h2>
+	
+		<form name="booking" method="post" action="formData.php" onsubmit="return checkForm()">
+	
+		<table border="0" style="margin-left:100px;">
+			<tr>
+				<td>Full Name:</td>
+				<td><input type="text" name="fullname" id="name"></td>
+			</tr>
+	
+			<tr>
+				<td>Email address:</td>
+				<td><input type="text" name="email" placeholder="xxx@gmail.com" id="email"></td>
+			</tr>
+	
+			<tr>
+				<td>Country:</td>
+				<td><input type="text" name="country" id="country" required></td>
+			</tr>
+
+			<tr>
+				<td>Contact Number:</td>
+				<td><input type="text" name="countrycode" max="3" style="width:40px;" placeholder="+xx" id="contact" required> &#160;
+				<input type="number" name="contact"  style="width:308px;" required></td>
+			</tr>
+
+			<tr>
+				<td>Birthdate:</td>
+				<td><input type="date" size="50" required></td>
+			</tr>
+
+			<tr>
+				<td>Select your room:</td>
+				<td>
+					<input type="radio" name="room" id="room" value="deluxe" required>Deluxe Room<br>
+					<input type="radio" name="room" id="room" value="junior" required>Junior Room<br>
+					<input type="radio" name="room" id="room" value="premier" required>Premier Suite<br>
+					<input type="radio" name="room" id="room" value="presidential" required>Presidential & Crown Suite<br>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Room Count:</td>
+				<td><input type="number" name="roomCount" id="roomCount" size="50" required></td>
+			</tr>
+
+			<tr>
+				<td>Check-in Date:</td>
+				<td><input type="date" name="inDate" id="inDate" size="50"></td>
+			</tr>
+		
+			<tr>
+				<td>Check-out Date:</td>
+				<td><input type="date" name="outDate" id="outDate" size="50"></td>
+			</tr>
+		
+			<tr>	
+				<td>Number of Adults:</td>
+				<td><input type="number" min="0" name="adult" id="adult" required></td>
+			</tr>
+
+			<tr>
+				<td>Number of Children:</td>
+				<td><input type="number" min="0" name="child" id="child" required></td>
+			</tr>
+		
+			<tr>
+				<td>Enter promo code:</td>
+				<td><input type="text" name="promo" id="promo"></td>
+			</tr>
+	
+			<tr>
+				<td>Special Requests:</td>
+				<td><textarea rows="3" cols="45"></textarea></td>
+			</tr>
+		</table>
+<br>
+		
+		<input type="submit" value="Submit" name="submit"> &#160; <input type="reset" value="clear" name="clear"><br>
+		</form>
+	</div>
+<br>
+	
+	
+	<!-- Footer -->
+		<div class="footer">
+			<div class="footer-img"></div>
+			<div class="footer-info">
+				<div class="footer-contact">
+					<div class="icon">
+						<br>
+						<i class="material-icons">place</i>
+					</div>
+					<div>
+						<a href="https://goo.gl/maps/vSNaRo1VjzTkuknS7" class="footer-link" target="_blank" rel="noopener noreferrer">
+						<address>Wellawathugoda Road<br>
+						Rekawa, Netolpitiya,<br>
+						Tangalle 82135</address>
+						</a>
+					</div>
+					<div class="icon">
+						<i class="material-icons">call</i>
+					</div>
+					<div>
+						<p><a href="tel:+94765489751" class="footer-link">+94 76 548 9751</a></p>
+					</div>
+					<div class="icon">
+						<i class="material-icons">email</i>
+					</div>
+					<div>
+						<a href="mailto:info@amayaresorts.lk" class="footer-link">info@amayaresorts.lk</a>
+					</div>
+				</div>
+					
+				<div>
+					<ul class="footer-list">
+						<li><a href="../home.html" class="footer-link">Home</a></li>
+						<li><a href="../html/Rooms%20&%20Suites.html" class="footer-link">Rooms & Suites</a></li>
+						<li><a href="../html/Dining.html" class="footer-link">Dining</a></li>
+						<li><a href="../html/Facilities.html" class="footer-link">Facilities</a></li>
+						<li><a href="../html/Activities.html" class="footer-link">Activities</a></li>
+						<li><a href="../html/Offers.html" class="footer-link">Offers</a></li>
+					</ul>
+				</div>
+				<div>
+					<ul class="footer-list">
+						<li><a href="Facilities.html#spa" class="footer-link">Spa</a></li>
+						<li><a href="Facilities.html#meetng" class="footer-link">Meetings</a></li>
+						<li><a href="Facilities.html#swpool" class="footer-link">Swimming Pools</a></li>
+						<li><a href="tel:+94714898980" class="footer-link">Lost and Found</a></li>
+						<li><a href="dayouting.html" class="footer-link" target="_blank">Day Outing</a></li>
+						<li><a href="https://www.epid.gov.lk/web/index.php?option=com_content&view=article&id=228&lang=en" class="footer-link" target="_blank" rel="noopener noreferrer">Covid-19</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-copy">&copy Copyright 2022 - Amaya Resorts</div>
+		</div>
+	</body>
+</html>

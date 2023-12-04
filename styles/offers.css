@@ -1,0 +1,63 @@
+body {
+	background-image: url("https://images7.alphacoders.com/362/362619.jpg");
+	
+
+}
+
+.promobg {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 350px;
+	min-width: 350px;
+	display: inline-block;
+	margin: 25px;
+
+}
+
+.promotxt {
+	color: transparent;
+	display: block;
+	padding-top: 130px;
+	padding-bottom: 132px;
+
+
+}
+
+.promotxt:hover {
+	background-color: #00000075;
+	color: #f4f5f5;
+
+}
+
+.promolink {
+	text-decoration: none;
+	text-align: center;
+
+}
+
+.offerbg {
+	background-color: #f4f5f5ee;
+	width: 70%;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.offerimg {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+.offertxt {
+	text-align: left;
+	padding-top: 50px;
+	padding-left: 5%;
+	padding-right: 5%;
+}

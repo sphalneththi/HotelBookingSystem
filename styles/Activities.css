@@ -1,0 +1,163 @@
+body {
+	background-image: url("../images/activities.jpg");
+}
+
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+}
+.a {
+    font-size: 15px;
+}
+
+
+h2 {
+	color: #000000;
+	text-align: left;
+	font-size: 40px;
+
+}
+p.ex {
+   font-size: 20px;
+
+}
+
+
+hr.heading-line {
+	width: 80%;
+	border: 1.5px solid #f4f5f5;
+}
+
+.newline {
+    background-color: #e0e5eb;
+}
+
+
+hr.new1 {
+    border: 3px solid black;
+ 
+}
+
+hr.new2 {
+   border: 1px dotted black;
+ 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 50%;
+  height: 500px;
+  margin-left: 125px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-image: url("../images/tennis.jpg");
+ background-size: cover;
+  background-position: 50% 50%;
+}
+.box2 {
+  float: left;
+  width: 30%;
+  margin-top: 100px;
+  height: 500px;
+  padding: 20px;
+  background-color: #e0e5eb;
+  margin-bottom: 100px;
+}
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  background-color: #e0e5eb;
+}
+
+
+.box3 {
+  margin-left: 125px;
+  float: left;
+  width: 30%;
+  height: 500px;
+  padding: 20px;
+  background-color: #FCF5C9;
+  margin-bottom: 100px;
+  
+}
+.box4 {
+  
+  float: left;
+  width: 50%;
+  height: 500px;
+  margin-bottom: 100px;
+  background-image: url("../images/Beach Volleyball.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.box5 {
+  float: left;
+  width: 50%;
+  height: 500px;
+  margin-left: 125px;
+  margin-bottom: 100px;
+  background-image: url("../images/Diving.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.box6 {
+  float: left;
+  width: 30%;
+  height: 500px;
+  padding: 20px;
+  background-color: #C6E0FD;
+  margin-bottom: 100px;
+}
+.box7 {
+  margin-left: 125px;
+  float: left;
+  width: 30%;
+  height: 500px;
+  padding: 20px;
+  background-color: #D7F2C7;
+  margin-bottom: 100px;
+  
+}
+.box8 {
+  
+  float: left;
+  width: 50%;
+  height: 500px;
+  margin-bottom: 100px;
+  background-image: url("../images/safari.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+ }
+ .box9 {
+  float: left;
+  width: 50%;
+  height: 500px;
+  margin-left: 125px;
+  margin-bottom: 100px;
+  background-image: url("https://scontent.fcmb11-1.fna.fbcdn.net/v/t39.30808-6/234829720_114053800978697_7191002799529978403_n.jpg?stp=cp0_dst-jpg_e15_fr_q65&_nc_cat=105&ccb=1-5&_nc_sid=dd9801&efg=eyJpIjoidCJ9&_nc_ohc=e_CDvCR1EucAX8yO_li&_nc_ht=scontent.fcmb11-1.fna&oh=00_AT9q01IhgjPw2hbLKLuGCRfjlBeI-gC1nC4lECrh6iCayg&oe=626CD2DB");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.box10 {
+  float: left;
+  width: 30%;
+  height: 500px;
+  padding: 20px;
+  background-color: #C0C0C0;
+  margin-bottom: 100px;
+} 
+.slogan {
+	width: 100%;
+	text-align: center;
+	color: #f4f5f5;
+	font-size: 400%;
+	display: inline-block;
+    margin-top: 80px;
+}
